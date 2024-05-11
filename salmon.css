@@ -1,0 +1,120 @@
+/*-- -------------------------- -->
+<---      salmon-hero           -->
+<--- -------------------------- -*/
+#salmon-hero .Section_top .hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#salmon-overview .image-group {
+  width: 45.625em;
+  height: 35.0625em;
+}
+#salmon-overview .image-group .cs-picture1 {
+  width: 45.625em;
+  height: 35.0625em;
+}
+
+#salmon-location .image-group {
+  width: 37.375em;
+  height: 33.5em;
+}
+#salmon-location .image-group .cs-picture1 {
+  width: 37.375em;
+  height: 33.5em;
+}
+
+#salmon-bring .image-group {
+  width: 46.6875em;
+  height: 43.125em;
+}
+#salmon-bring .image-group .cs-picture1 {
+  width: 46.6875em;
+  height: 43.125em;
+}
+
+.pricing-background {
+  height: auto;
+  width: 1035px;
+  background-color: #D9D9D9;
+  border-radius: 19px;
+  position: relative;
+  margin: auto;
+}
+
+.pricing-outer {
+  margin-bottom: 44px;
+}
+
+.sub-container {
+  display: inline-flex;
+}
+
+.sub-container-2 {
+  background-color: white;
+  margin: 35px;
+  border-radius: 26px;
+}
+
+.first-section {
+  display: inline-flex;
+}
+
+.content-overview {
+  padding-top: 70px;
+}
+
+ul {
+  list-style-image: url("/assets/images/Ellipse 163.png");
+  line-height: 25px;
+}
+
+.sub-container-2-padding {
+  padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .first-section {
+    display: block;
+  }
+  .cs-picture .cs-picture1 img {
+    height: 100%;
+    width: 100%;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .sub-container {
+    display: block;
+    padding-top: 10px;
+  }
+  .sub-container-2-padding {
+    padding: 30px;
+    padding-bottom: 20px;
+  }
+  .mobile-version {
+    height: 140px;
+    width: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+  .sub-container-2 {
+    margin: 10px;
+  }
+  .pricing-background {
+    width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cs-picture .cs-picture1 .image-group img {
+    height: 458px;
+    width: 507px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/*# sourceMappingURL=salmon.css.map */
